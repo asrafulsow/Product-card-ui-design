@@ -8,4 +8,5 @@ $(".product-colors span").click(function () {
     $(".content h3").css("color", $(this).attr("data-color-primary"))
     $(".container .imgbx").css("background", $(this).attr("data-color-sec"))
     $(".imgbx img").attr("src", $(this).attr("data-pic"))
+    $(".content button").css("backgroundColor", $(this).attr("data-color-sec"))
 }) 
